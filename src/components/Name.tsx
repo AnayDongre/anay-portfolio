@@ -5,7 +5,7 @@ function Name() {
     "Web Developer",
     "Biker",
     "Software Engineer",
-    "Backend developer",
+    "Backend Developer",
   ];
   return (
     <div className="intro-box">
