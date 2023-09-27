@@ -1,0 +1,49 @@
+.App {
+  background-color: #003d2b;
+  height: 100vh;
+}
+
+.App-header {
+  color: #5c9273;
+}
+
+.intro-box {
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.intro-line {
+  color: #5c9273;
+  font-size: 20px;
+}
+
+.intro-space {
+  margin-right: 0.7em;
+}
+
+.name {
+  color: #ddf071;
+  font-size: 40px;
+}
+
+.i-am {
+  color: #ddf071;
+  font-size: 40px;
+  display: flex;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
