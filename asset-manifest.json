@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/anaydongre/static/css/main.afe27cc7.css",
-    "main.js": "/anaydongre/static/js/main.21f950dc.js",
+    "main.css": "/anaydongre/static/css/main.bf00c01e.css",
+    "main.js": "/anaydongre/static/js/main.c85f753d.js",
     "static/js/787.28cb0dcd.chunk.js": "/anaydongre/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Github.svg": "/anaydongre/static/media/Github.52038f708085aaed24b27fd472bd3725.svg",
     "index.html": "/anaydongre/index.html",
-    "main.afe27cc7.css.map": "/anaydongre/static/css/main.afe27cc7.css.map",
-    "main.21f950dc.js.map": "/anaydongre/static/js/main.21f950dc.js.map",
+    "static/media/Linkedin.svg": "/anaydongre/static/media/Linkedin.ada11cda991129bc91b79d2c7cee1066.svg",
+    "main.bf00c01e.css.map": "/anaydongre/static/css/main.bf00c01e.css.map",
+    "main.c85f753d.js.map": "/anaydongre/static/js/main.c85f753d.js.map",
     "787.28cb0dcd.chunk.js.map": "/anaydongre/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.afe27cc7.css",
-    "static/js/main.21f950dc.js"
+    "static/css/main.bf00c01e.css",
+    "static/js/main.c85f753d.js"
   ]
 }
