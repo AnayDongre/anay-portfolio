@@ -4,7 +4,7 @@ import { NavButtonInterface } from "../types";
 
 const initialState: NavButtonInterface = {
   id: 1,
-  name: "About",
+  name: "Experience",
 };
 
 export const activeTabSlice = createSlice({

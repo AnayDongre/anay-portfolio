@@ -13,14 +13,7 @@ function Content() {
         return <About />;
     }
   };
-  return (
-    <div className="details">
-      <div className="extra-content">
-        <About />
-      </div>
-      <div className="content-container">{getContent()}</div>
-    </div>
-  );
+  return <div>{getContent()}</div>;
 }
 
 export default Content;
