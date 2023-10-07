@@ -1,17 +1,18 @@
+import { NavButtonInterface } from "../types";
+
 interface NavButtonProps {
-  id: number;
-  name: string;
+  navButton: NavButtonInterface;
+  onNavButtonClick: (navButton: NavButtonInterface) => void;
   isActive: boolean;
-  onNavButtonClick: (id: number) => void;
 }
 function NavButton(props: NavButtonProps) {
-  const { id, name, isActive, onNavButtonClick } = { ...props };
+  const { navButton, isActive, onNavButtonClick } = { ...props };
   return (
     <div
       className={isActive ? "active nav-button" : "nav-button"}
-      onClick={() => onNavButtonClick(id)}
+      onClick={() => onNavButtonClick(navButton)}
     >
-      {name}
+      {navButton.name}
     </div>
   );
 }

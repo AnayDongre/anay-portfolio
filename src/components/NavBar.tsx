@@ -1,16 +1,37 @@
 import { NavButtonInterface } from "../types";
 import NavButton from "./NavButton";
+import type { RootState } from "../store/store";
+import { useSelector, useDispatch } from "react-redux";
+import { setActiveTab } from "../store/activeTabSlice";
+const NAV_BUTTONS = [
+  {
+    id: 1,
+    name: "Experience",
+  },
+  {
+    id: 2,
+    name: "Projects",
+  },
+];
 
-interface NavBarProps {
-  navButtons: NavButtonInterface[];
-  onNavButtonClick: (id: number) => void;
-}
-function NavBar(props: NavBarProps) {
-  const { navButtons, onNavButtonClick } = { ...props };
+function NavBar() {
+  const activeTab = useSelector((state: RootState) => state.activeTab);
+  const dispatch = useDispatch();
+
+  const onNavButtonClick = (navButton: NavButtonInterface) => {
+    dispatch(setActiveTab(navButton));
+  };
   return (
     <div className="nav-bar">
-      {navButtons.map((navButton) => {
-        return <NavButton {...navButton} onNavButtonClick={onNavButtonClick} />;
+      {NAV_BUTTONS.map((navButton) => {
+        return (
+          <NavButton
+            key={navButton.id}
+            navButton={navButton}
+            onNavButtonClick={onNavButtonClick}
+            isActive={navButton.id === activeTab.id}
+          />
+        );
       })}
     </div>
   );

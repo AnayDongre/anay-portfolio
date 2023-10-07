@@ -1,5 +1,4 @@
 export interface NavButtonInterface {
-    id: number;
-    name: string,
-    isActive: boolean;
+  id: number;
+  name: string;
 }
