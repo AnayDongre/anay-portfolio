@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Name from "./components/Name";
 import NavBar from "./components/NavBar";
@@ -58,6 +59,11 @@ function App() {
         <div className="extra-content"></div>
         <div className="content-container">{getContent()}</div>
       </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/anaydongre/exp" element={<Experience />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

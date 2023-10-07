@@ -9,8 +9,9 @@ button {
   border: none;
   background: none;
 }
+/* #38383 */
 body {
-  background-color: #003d2b;
+  background-color: rgb(15 23 42);
   height: 100%;
   width: 100%;
   background-attachment: fixed;
@@ -38,16 +39,16 @@ body {
 }
 
 .intro-space {
-  margin-right: 0.7em;
+  margin-left: 0.7em;
 }
 
 .name {
-  color: #ddf071;
+  color: #ef6815;
   font-size: 30px;
 }
 
 .i-am {
-  color: #fff;
+  color: #727271;
   font-size: 28px;
   display: flex;
 }
@@ -97,7 +98,7 @@ body {
 }
 .content-container {
   border-radius: 10px;
-  border: 2px solid #ddf071;
+  /* border: 2px solid #ddf071; */
   height: 70vh;
   width: 70vw;
   margin-top: 20px;

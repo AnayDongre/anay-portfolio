@@ -1,19 +1,12 @@
 import Typewriter from "typewriter-effect";
 
 function Name() {
-  const roles = [
-    "Web Developer",
-    "Biker",
-    "Software Engineer",
-    "Backend Developer",
-  ];
+  const roles = ["Web ", "App ", "Backend "];
   return (
     <div className="intro-box">
-      <div className="intro-line">Hi, My name is</div>
+      {/* <div className="intro-line">Hi, My name is</div> */}
       <div className="name">Anay Dongre</div>
       <div className="i-am">
-        <span className="intro-space">I am a</span>
-
         <Typewriter
           options={{
             strings: roles,
@@ -21,8 +14,10 @@ function Name() {
             delay: 100,
             autoStart: true,
             loop: true,
+            cursor: "",
           }}
         />
+        <span className="intro-space">Developer</span>
       </div>
     </div>
   );
