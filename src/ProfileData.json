@@ -1,0 +1,68 @@
+{
+  "name": "Anay Dongre",
+  "aboutMe": "In 2019, my journey began when I graduated from Indian Institute of Technology, Kharagpur (IIT KGP), with my B.Tech. degree. I set sail into the corporate world with Societe Generale, a renowned French bank, as a frontend engineer, where I honed my skills in enterprise application development and in just two years, I rose to lead the Frontend Team. With a thirst for broader horizons,  I transitioned to Zeta, one of India's leading Unicorn Start-Ups. Here, I immersed myself in a multitude of teams and took part in five exciting projects that spanned the realms of rewards, payments, and customer support. Currently, my focus lies on an exhilarating endeavor – enhancing transaction efficiency for Payzapp, a rapidly growing platform. Beyond the confines of screens and code, my interests take me to uncharted places, winding bike rides, virtual conquests in the realms of PlayStation, and indulgent culinary adventures.",
+  "linkedinUrl": "https://www.linkedin.com/in/anay-dongre/",
+  "githubUrl": "https://github.com/AnayDongre",
+  "workExperience": [
+    {
+      "id": 1,
+      "timeline": "Sep 2021 - Present",
+      "role": "SDE-2",
+      "company": "Zeta",
+      "description": "Led end-to-end development initiatives, crafting one consumer-facing and two internal web applications for customer support. Oversaw architecture and release pipelines, fostering seamless frontend and backend integration. Engineered a React Js analytics dashboard to monitor performance and crash logs. Pioneered code quality enhancements with Husky git webhooks. Additionally, contributed to three micro-services, boosting daily transaction capacity to 10 million, and orchestrated a meticulous overhaul of a live production service. Utilized Java, Maven, SpringBoot, Kafka, Git, Jenkins, and AWS for streamlined development and deployment.",
+      "skills": [
+        "React",
+        "Javascript",
+        "TypeScript",
+        "SpringBoot",
+        "Java",
+        "Maven",
+        "Kafka",
+        "Git",
+        "Jenkins",
+        "AWS"
+      ]
+    },
+    {
+      "id": 2,
+      "timeline": "June 2019 - Sep 2021",
+      "role": "SDE-1",
+      "company": "Societe Generale",
+      "description": "Led a team of front-end engineers, overseeing complete front-end architecture, performance, and code quality. Proficient in API integrations encompassing HTTP, Rest, JSON, Micro-Services, AJAX, Axios, and Webpack. Managed release processes with Git, Jenkins, and OpenShift. Engineered reusable React Js components and contributed to CRUD operations and common utility APIs within Spring Boot Microservices.",
+      "skills": [
+        "React Js",
+        "Javascript",
+        "TypeScript",
+        "SpringBoot",
+        "Java",
+        "Jenkins",
+        "Git"
+      ]
+    },
+    {
+      "id": 3,
+      "timeline": "May 2018 - July 2018",
+      "role": "Data Science Intern",
+      "company": "Unscrambl.INC",
+      "description": "Designed a Python-based chat-bot, featuring a custom-built NLTK grammar and tokenization system to meticulously construct question trees for enhanced conversational capabilities and respond to user queries and statements in a natural and human-like manner.",
+      "skills": ["Python", "Data Science", "Machine Learning"]
+    },
+    {
+      "id": 4,
+      "timeline": "May 2017 - July 2017",
+      "role": "Data Science Intern",
+      "company": "E-Business Center, IIT Kharagpur",
+      "description": "Developed a “Fake Product Review Detection” algorithm that utilized sentiment analysis, integrated with artificial neural networks and a Naive Bayes classifier. Conducted model comparisons using 10-fold cross-validation, assessing accuracy and precision. The logistic regression model emerged as the top performer, achieving a 68% accuracy rate.",
+      "skills": ["Python", "Data Science", "Machine Learning"]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "timeline": "Aug 2018 - Feb 2019",
+      "role": "Sentiment Analysis based Rating Prediction",
+      "description": "Meticulously compiled a substantial corpus, amassing over 120,000 product reviews for 16 diverse mobile phones through web scraping on Amazon. Utilizing Python, engineered a multifaceted rating prediction model, encompassing both phone and feature rating assessments, and leveraging sentiment analysis techniques.",
+      "skills": ["Python", "Data Science", "Machine Learning"]
+    }
+  ]
+}

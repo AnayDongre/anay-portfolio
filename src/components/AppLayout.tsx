@@ -2,6 +2,7 @@ import About from "./About";
 import Content from "./Content";
 import Name from "./Name";
 import NavBar from "./NavBar";
+import Socials from "./Socials";
 
 function AppLayout() {
   return (
@@ -9,15 +10,19 @@ function AppLayout() {
       <header className="App-header">
         <NavBar />
       </header>
-      <Name />
+
       <div className="details">
-        <div className="extra-content">
+        <div className="left-content">
+          <Name />
           <About />
         </div>
         <div className="content-container">
           <Content />
         </div>
       </div>
+      <footer>
+        <Socials />
+      </footer>
     </>
   );
 }
