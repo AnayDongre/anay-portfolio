@@ -123,15 +123,43 @@ body {
   overflow: scroll;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
+  .App {
+    padding: 5px;
+  }
+
+  .App-header {
+    justify-content: left;
+    position: sticky;
+  }
   .i-am {
     display: block;
+  }
+  .intro-box {
+    margin-bottom: 5px;
+  }
+  .details {
+    display: block;
+    margin: 0;
+  }
+
+  .left-content {
+    width: 98vw;
+  }
+  .skill-container {
+    width: 90vw;
+    /* display: flex; */
+    word-wrap: break-word;
   }
 
   .content-container {
     height: 100%;
-    width: 100vw;
+    width: 90vw;
     margin-top: 20px;
+    border-left: none;
+  }
+  footer {
+    position: fixed;
   }
 }
 .experience-timeline {
